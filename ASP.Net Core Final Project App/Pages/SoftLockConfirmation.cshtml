@@ -1,0 +1,42 @@
+﻿@page
+@model WebApplication1.Pages.SoftLockConfirmationModel
+@{
+}
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></Script>
+<script> 
+    $.get("http://localhost:7222/api/SoftLock", function (data, status) {
+
+    let code = "";
+    
+        code += "<label> Employee ID:"  + data.employeeId + "</label>"
+         code += "<label> Requestee:"  + data.manager + "</label>"
+          code += "<label> Employee Manager:"  + data.manager + "</label>"
+           code += "<label> Request Description:"  + data.requestMessage + "</label>"
+            
+      
+    
+    $('#datas').html(code)
+})
+function onSubmit() {
+     $.get("http://localhost:7222/api/UpdateSoftLock", function (data, status) {
+
+    
+})
+}
+</script>
+<div> Soft lock Request Confirmation </div>
+<div class="container">
+<h4 style="text-align:center">SoftLock Request Confirmation</h4>
+
+<form style="text-align:center">
+  <p><label for="text">status update for request lock</label></p>
+  <div id="datas"></div>
+  <div>Status</div> <input type="text" placeholder="Please Enter Accept or Reject " id="submit" onclick="onSubmit()"/>
+  <button>Cancel</button>
+  <button>Send Request</button>
+</form>
+</div>
+

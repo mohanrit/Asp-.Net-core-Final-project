@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.Net core Final project\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net Core Final Project Web API\\ASP.Net Core Final Project Web API\\ASP.Net_Core_FinalProject_API.csproj": {}
+  },
+  "projects": {
+    "D:\\.Net core Final project\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net Core Final Project Web API\\ASP.Net Core Final Project Web API\\ASP.Net_Core_FinalProject_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net core Final project\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net Core Final Project Web API\\ASP.Net Core Final Project Web API\\ASP.Net_Core_FinalProject_API.csproj",
+        "projectName": "ASP.Net_Core_FinalProject_API",
+        "projectPath": "D:\\.Net core Final project\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net Core Final Project Web API\\ASP.Net Core Final Project Web API\\ASP.Net_Core_FinalProject_API.csproj",
+        "packagesPath": "C:\\Users\\mohanrajr\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net core Final project\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net-Core-Training-Final-Project-main\\ASP.Net Core Final Project Web API\\ASP.Net Core Final Project Web API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohanrajr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
